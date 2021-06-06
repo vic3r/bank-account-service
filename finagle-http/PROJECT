@@ -1,0 +1,17 @@
+# See go/project-docs. Generated using ./pants run src/python/twitter/phabricator:owners_to_project -- --dirs=a/owned/path,b/owned/path
+
+owners:
+  - banderson
+  - hallam
+  - ibennett
+  - mnakamura
+  - roanta
+  - vkostyukov
+  - yufang
+watchers:
+  - csl-team:ldap
+
+fileOwners:
+  src/main/scala/com/twitter/finagle/http/SpnegoAuthenticator.scala:
+    - csl-core-security:phab
+    - platform-security:ldap

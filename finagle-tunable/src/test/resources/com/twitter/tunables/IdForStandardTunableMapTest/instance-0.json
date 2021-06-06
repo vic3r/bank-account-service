@@ -1,9 +1,0 @@
-{
-  "tunables": [
-    {
-      "id": "com.twitter.util.tunable.FileBasedPerInstance",
-      "value": "file based per instance",
-      "type": "java.lang.String"
-    }
-  ]
-}
